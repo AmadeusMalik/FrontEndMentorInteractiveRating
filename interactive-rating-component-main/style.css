@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+body {
+  max-width: 1440px;
+  min-width: 375px;
+  height: 100v;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "Overpass";
+  margin-top: 10%;
+  background-image:url(images/background.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+p {
+  font-size: 15px;
+}
+
+#card1,
+#card2 {
+  background-color: hsl(213, 19%, 18%);
+  width: 320px;
+  height: 350px;
+  max-height: 350px;
+  padding: 20px 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: hsl(217, 12%, 63%);
+  position: fixed;
+  border: none;
+}
+#card2 {
+  opacity: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 21px;
+}
+#card2 > img {
+  width: 50%;
+}
+#card2 > h2{
+  color: aliceblue;
+  margin-top: -5px;
+  margin-bottom: -10px;
+}
+#total-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 5px 13px 2px;
+  margin: 25px;
+  background-color:rgba(240, 248, 255, 0.049);
+  color: hsl(25, 97%, 53%);
+}
+#card2p{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 70%;
+  text-align: center;
+  
+}
+#rating{
+margin: 0px 3px;
+}
+/*Card 1 styles */
+
+#star {
+  background-color:  rgba(240, 248, 255, 0.049);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#submit-btn {
+  margin-top: 10%;
+  width: 80%;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  font-family: "Overpass";
+  margin-left: 30px;
+}
+#submit-btn:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: aliceblue;
+  cursor: pointer;
+}
+#card1 > #rating-buttons {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  height: 45px;
+  padding: 5px;
+}
+#btn{
+  border-radius: 50%;
+  padding: 10px, 10px;
+  width: 45px;
+  height: 100%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(240, 248, 255, 0.049);
+  color: hsl(217, 12%, 63%);
+  font-weight: 700;
+  font-size: 15px;
+}
+#btn:hover {
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+  color: aliceblue;
+}
+.orange{
+  background-color: hsl(25, 97%, 53%)
+}
+#card1 > h2 {
+  font-size: 20px;
+  margin-bottom: 1%;
+  color: aliceblue;
+}
+#card1p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom:15px ;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position:fixed;
+  top: 600px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
